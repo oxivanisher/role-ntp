@@ -1,0 +1,5 @@
+---
+
+# Internal DNS server
+ntp_servers:
+  - "opnsense.{{ basic.local_domain }}"
