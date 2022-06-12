@@ -12,12 +12,10 @@ galaxy_info:
     - name: ArchLinux
     - name: Debian
       versions:
-        - wheezy
-        - jessie
+        - all
     - name: Ubuntu
       versions:
-        - trusty
-        - xenial
+        - all
     - name: CentOS
       versions:
         - 6
