@@ -18,7 +18,6 @@ galaxy_info:
         - all
     - name: CentOS
       versions:
-        - 6
-        - 7
+        - all
   galaxy_tags:
     - ntp
