@@ -1,4 +1,3 @@
 warn_list:
-  - role-name
   - experimental  # all rules tagged as experimental
   - schema  # Perform JSON Schema Validation for known lintable kinds.
