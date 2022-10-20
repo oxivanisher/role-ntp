@@ -1,6 +1,6 @@
 ---
 
-- name: install ntp related packages
+- name: Install ntp related packages
   ansible.builtin.package:
     name: '{{ item }}'
     state: present

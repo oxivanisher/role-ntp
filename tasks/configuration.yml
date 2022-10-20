@@ -1,6 +1,6 @@
 ---
 
-- name: configure ntp
+- name: Configure ntp
   ansible.builtin.template:
     src: etc/ntp.conf.jinja2
     dest: '{{ ntp_cfg }}'
@@ -15,4 +15,4 @@
     - 'role::ntp'
     - 'role::ntp:config'
   notify:
-    - 'restart ntpd'
+    - 'Restart ntpd'
