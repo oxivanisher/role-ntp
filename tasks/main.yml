@@ -12,5 +12,8 @@
     - 'role::ntp:install'
     - 'role::ntp:config'
 
-- import_tasks: installation.yml
-- import_tasks: configuration.yml
+- name: Importing tasks from installation.yml
+  ansible.builtin.import_tasks: installation.yml
+
+- name: Importing tasks from configuration.yml
+  ansible.builtin.import_tasks: configuration.yml
