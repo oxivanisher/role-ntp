@@ -4,3 +4,4 @@
   ansible.builtin.service:
     name: '{{ ntp_service }}'
     state: restarted
+  ignore_errors: "{{ ansible_check_mode }}"
