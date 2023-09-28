@@ -19,7 +19,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-    - name: RedHat
+    - name: EL
       versions:
         - all
   galaxy_tags:
