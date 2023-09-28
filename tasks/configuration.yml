@@ -1,18 +1,17 @@
 ---
-
 - name: Configure ntp
   ansible.builtin.template:
     src: etc/ntp.conf.jinja2
-    dest: '{{ ntp_cfg }}'
+    dest: "{{ ntp_cfg }}"
     owner: root
     group: root
-    mode: 0644
+    mode: "0644"
     seuser: system_u
     serole: object_r
     setype: net_conf_t
     selevel: s0
   tags:
-    - 'role::ntp'
-    - 'role::ntp:config'
+    - "role::ntp"
+    - "role::ntp:config"
   notify:
-    - 'Restart ntpd'
+    - "Restart ntpd"

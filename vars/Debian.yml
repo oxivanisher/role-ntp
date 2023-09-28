@@ -1,5 +1,4 @@
 ---
-
 # ntp packages
 ntp_packages:
   - ntp
